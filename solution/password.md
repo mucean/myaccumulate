@@ -2,7 +2,7 @@
 ####php
 
     /**
-     * @param $bit_num 多少位的密码
+     * @param integer $bit_num 多少位的密码
      * @param string $type 类型：num, char, mix
      * @param bool $case_sensitive 是否区分大小写
      * @return string
