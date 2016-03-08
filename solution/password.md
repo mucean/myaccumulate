@@ -38,6 +38,7 @@
         $chars_length = strlen($chars);
         while ($times < $bit_num) {
             $pass .= substr($chars, mt_rand() % $chars_length, 1);
+            ++$times;
         }
 
         return $pass;
